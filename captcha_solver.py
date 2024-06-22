@@ -15,8 +15,8 @@ service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 # Credentials
-Student_ID: str = "ENTER YOUR Student_ID HERE" # CHANGE HERE
-Password: str = "ENTER YOUR PASSWORD HERE"     # CHANGE HERE
+Student_ID: str = "ENTER YOUR Student_ID HERE" # MUST CHANGE HERE
+Password: str = "ENTER YOUR PASSWORD HERE"     # MUST CHANGE HERE
 Check: bool = True
 
 # Load login page
